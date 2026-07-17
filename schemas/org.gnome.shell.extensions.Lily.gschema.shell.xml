@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.Lily" path="/org/gnome/shell/extensions/Lily/">
+        <key name="show-hide" type="as">
+            <default><![CDATA[['<Ctrl><Super>X']]]></default>
+            <summary>Show/Hide the widget.</summary>
+        </key>
+  </schema>
+</schemalist>
+<object class="GtkImage">
+    <property name="visible">True</property>
+    <property name="can-focus">False</property>
+    <property name="icon-name">face-lily-symbolic</property>
+    <property name="icon-size">1</property>
+</object>

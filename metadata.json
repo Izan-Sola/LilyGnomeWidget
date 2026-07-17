@@ -1,0 +1,8 @@
+{
+  "name": "Gnome-Lily-Integration",
+  "description": "Integrates my daughter Lily in a gnome desktop",
+  "uuid": "solamontesinosizan@gmail.com",
+  "shell-version": [
+    "46"
+  ]
+}

@@ -1,0 +1,107 @@
+
+/* :root {
+    --c1: rgb(183, 116, 0);
+} */
+ * {
+    font-family: 'AppleStorm';
+ }
+.lily-icon {
+    border-radius: 5px;
+    border: 3px rgb(0, 0, 0) solid;
+    background-color: rgb(243, 86, 222);
+    padding-left: 20%;
+    color: black;
+}
+
+.lily-icon:checked {
+    border-radius: 5px;
+    border: 5px rgba(10, 10, 10, 0.8) solid;
+    background-color: rgb(255, 149, 241);
+}
+
+.lily-widget {
+    /* background-color: rgb(255, 235, 239);    
+    border: 5px rgb(189, 107, 6);; */
+    /* background-color: rgb(243, 86, 222); */
+    background-image: url(media/lilybg.png);
+    background-size: 340px;
+    border: 5px rgba(0, 0, 0, 1) solid;
+    z-index: 1000;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.bg-overlay {
+    background-color: rgba(225, 84, 220, 0.526);
+    border-radius: 15px;
+    z-index: 10;
+}
+
+.screenshot-opt,
+.voicechat-opt {
+    margin-left: 28px;
+    text-align: center;
+    width: 115px;
+}
+.screenshot-opt:hover,
+.voicechat-opt:hover {
+    font-size: 20px;
+}
+.lily-header {
+    font-size: 18px;
+    font-weight: bold;
+    /* color: rgb(189, 107, 6); */
+    color: black;
+    background-color: rgba(255, 192, 203, 0.75);
+    width: 320px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 1px;
+    /* border: 4px dashed rgb(189, 107, 6); */
+    border: 4px dashed #7b3178;
+    border-radius: 3px;
+}
+
+.text-input {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    background-color: rgba(255, 192, 203, 0.75);
+    width: 300px;
+    height: 25px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 11px;
+    border: 4px dashed rgb(189, 107, 6);
+    border: 4px dashed #7b3178;
+    border-radius: 12px;
+    z-index: 10;
+}
+.me-bubble {
+    background-color: rgba(255, 149, 241, 0.6);
+    border: 3px solid rgba(10, 10, 10, 0.8);
+    border-radius: 4px 2px 2px 50px;
+    padding: 8px 12px 8px 32px;
+    margin: 3px 5px 3px 80px;
+    max-width: 100px;
+    color: #1a0015;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: left;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.lily-bubble {
+    background-color: rgba(243, 86, 222, 0.6);
+    border: 3px solid rgba(10, 10, 10, 0.8);
+    border-radius: 4px 2px 50px 2px;
+    padding: 8px 12px;
+    margin: 3px 80px 3px 5px;
+    max-width: 100px;
+    color: #1a0015;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: left;
+    text-wrap: wrap;
+}
